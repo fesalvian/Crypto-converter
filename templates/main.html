@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <input type="number" id="valor" placeholder="Digite o valor">
+        <select id="moeda">
+            <option value="real">Real</option>
+            <option value="dollar">Dollar</option>
+            <option value="libra">Libra</option>
+            <option value="bitcoin">Bitcoin</option>
+            <option value="ethereum">Ethereum</option>
+            <option value="bnb">BNB</option>
+            <option value="solana">Solana</option>
+        </select>
+        <button onclick="converter()">Converter</button>
+        <div class="resultados" id="resultados"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
+</body>
+</html>
