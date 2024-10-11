@@ -12,4 +12,4 @@ The coin are:
 - BNB
 
 
-<h4> In the files have a {} with all the dependecies you need install before run </H4>
+<h4> In the files have a {requirements.txt} with all the dependecies you need install before run </H4>
