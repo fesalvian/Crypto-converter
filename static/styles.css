@@ -4,6 +4,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.bitcoin-img{
+    width: 70px;
+    height: 70px;
+}
+
 .container {
     width: 100%;
     max-width: 600px;
@@ -21,8 +27,10 @@ input{
     width: 80%;
     padding: 10px;
     margin: 10px 0;
+    margin-right: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+
 }
 
 select, button {
