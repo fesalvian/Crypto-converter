@@ -2,7 +2,7 @@
 
 <h4>This app is just a simple project to consume an API from coingecko, here i made a coin conversor between money and crypto coins in real time</h4>
 
-The coin are:
+The coins are:
 - USD
 - GBP
 - BRL
