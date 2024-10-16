@@ -3,8 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-if __name__ == "__main__":
-    app.run()
+
 
 
 def obter_taxas():
@@ -19,6 +18,9 @@ def obter_taxas():
 @app.route('/')
 def index():
     return render_template('main.html')
+
+if __name__ == "__main__":
+    app.run()
 
 @app.route('/converter', methods=['POST'])
 def converter():
