@@ -61,3 +61,5 @@ def converter():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+    #não aguento mais pelo amor de cristo funciona pfvor#
