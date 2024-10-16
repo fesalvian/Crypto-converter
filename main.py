@@ -3,9 +3,6 @@ import requests
 
 app = Flask(__name__)
 
-
-
-
 def obter_taxas():
     url = "https://api.coingecko.com/api/v3/simple/price"
     params = {
@@ -18,9 +15,6 @@ def obter_taxas():
 @app.route('/')
 def index():
     return render_template('main.html')
-
-if __name__ == "__main__":
-    app.run()
 
 @app.route('/converter', methods=['POST'])
 def converter():
