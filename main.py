@@ -3,6 +3,10 @@ import requests
 
 app = Flask(__name__)
 
+if __name__ == "__main__":
+    app.run()
+
+
 def obter_taxas():
     url = "https://api.coingecko.com/api/v3/simple/price"
     params = {
