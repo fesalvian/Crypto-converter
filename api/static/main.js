@@ -17,6 +17,7 @@ function converter() {
     })
     .then(response => response.json())
     .then(data => {
+        console.log("Dados recebidos da API: ", data);
         let resultados = document.getElementById("resultados");
         resultados.innerHTML = '';
         for (let [moeda, valor] of Object.entries(data)) {
