@@ -2,7 +2,7 @@
 function converter() {
     const valor = document.getElementById("valor").value;
     const moeda = document.getElementById("moeda").value;
-    const apiUrl = "https://crypto-converter-inky-alpha.vercel.app";  // Atualize com o seu domínio na Vercel
+    const apiUrl = "https://crypto-converter-inky-alpha.vercel.app/converter";  // Atualize com o seu domínio na Vercel
 
 
     fetch(apiUrl, {
